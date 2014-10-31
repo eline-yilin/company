@@ -28,7 +28,7 @@ include_once '../config/config.php';;
         <div class="navbar">
           <div class="center">
           	 <div class='btn btn-inverse'>
-          	 <ul>
+          	 <ul class='nav navbar-nav'>
 	            <li ><a href="/admin">关于我们</a></li>
 	            
 	            <li ><a href="/admin/user">业务范围</a></li>
