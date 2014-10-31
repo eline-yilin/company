@@ -5,7 +5,7 @@ include_once '../config/config.php';;
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>缇戒功淇℃伅绉戞妧鏈夐檺鍏徃</title>
  <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
@@ -28,13 +28,13 @@ include_once '../config/config.php';;
         <div class="navbar">
           <div class="center">
           	 <div class='btn btn-inverse'>
-            <li {@eq key=name value="index"}class="active"{/eq}><a href="/admin">首页</a></li>
+            <li {@eq key=name value="index"}class="active"{/eq}><a href="/admin">锟斤拷页</a></li>
             
-            <li {@eq key=name value="user"}class="active"{/eq}><a href="/admin/user">业务范围</a></li>
+            <li {@eq key=name value="user"}class="active"{/eq}><a href="/admin/user">业锟斤拷围</a></li>
             
-            <li {@eq key=name value="comment"}class="active"{/eq}><a href="/admin/comment">成功案例</a></li>  
+            <li {@eq key=name value="comment"}class="active"{/eq}><a href="/admin/comment">锟缴癸拷锟斤拷锟斤拷</a></li>  
            
-            <li {@eq key=name value="cart"}class="active"{/eq}><a href="/admin/orders">联系我们</a></li>
+            <li {@eq key=name value="cart"}class="active"{/eq}><a href="/admin/orders">锟斤拷系锟斤拷锟斤拷</a></li>
             </div>
           </div>
         </div><!--/.nav -->
