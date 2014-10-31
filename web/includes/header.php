@@ -23,18 +23,20 @@ include_once '../config/config.php';;
     <div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-        	<a class="navbar-brand pull-left" href="/">{@pre type="content" key="title"/}</a>
+        	<a class="navbar-brand pull-left" href="/">aaa</a>
         </div>
         <div class="navbar">
           <div class="center">
           	 <div class='btn btn-inverse'>
-            <li {@eq key=name value="index"}class="active"{/eq}><a href="/admin">��ҳ</a></li>
-            
-            <li {@eq key=name value="user"}class="active"{/eq}><a href="/admin/user">ҵ��Χ</a></li>
-            
-            <li {@eq key=name value="comment"}class="active"{/eq}><a href="/admin/comment">�ɹ�����</a></li>  
-           
-            <li {@eq key=name value="cart"}class="active"{/eq}><a href="/admin/orders">��ϵ����</a></li>
+          	 <ul>
+	            <li ><a href="/admin">关于我们</a></li>
+	            
+	            <li ><a href="/admin/user">业务范围</a></li>
+	            
+	            <li ><a href="/admin/comment">成功案例</a></li>  
+	           
+	            <li ><a href="/admin/orders">联系我们</a></li>
+            </ul>
             </div>
           </div>
         </div><!--/.nav -->
