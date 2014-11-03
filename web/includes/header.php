@@ -19,26 +19,26 @@ include_once '../config/config.php';;
       <script src="<?php echo THEME_PATH;?>js/app.js"></script>
 </head>
 <body>
- 	<!-- Fixed navbar -->
+	<!-- Fixed navbar -->
     <div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-        	<a class="navbar-brand pull-left" href="/">aaa</a>
+         
         </div>
-        <div class="navbar">
-          <div class="center">
-          	 <div class='btn btn-inverse'>
-          	 <ul class='nav navbar-nav'>
-	            <li ><a href="/admin">关于我们</a></li>
+        <div class="">
+          <ul class="nav  nav-pills">
+           		<li ><a href="/admin">关于我们</a></li>
 	            
 	            <li ><a href="/admin/user">业务范围</a></li>
 	            
 	            <li ><a href="/admin/comment">成功案例</a></li>  
 	           
 	            <li ><a href="/admin/orders">联系我们</a></li>
-            </ul>
-            </div>
-          </div>
-        </div><!--/.nav -->
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
+    
+    
+    
+ 	
