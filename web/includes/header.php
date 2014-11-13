@@ -5,7 +5,7 @@ include_once '../config/config.php';;
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>羽书信息科技有限公司</title>
+<title>测试</title>
  <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
@@ -20,14 +20,15 @@ include_once '../config/config.php';;
 </head>
 <body>
 	<!-- Fixed navbar -->
-    <div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+    <div role="navigation" class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
          
         </div>
-        <div class="">
-          <ul class="nav  nav-pills">
-           		<li ><a href="/admin">关于我们</a></li>
+        <div class="my-top-nav">
+        <div class='my-pills-overlay'></div>
+          <ul class="nav  nav-pills my-pills">
+           		<li class='active'><a href="/admin">关于我们</a></li>
 	            
 	            <li ><a href="/admin/user">业务范围</a></li>
 	            
@@ -35,10 +36,12 @@ include_once '../config/config.php';;
 	           
 	            <li ><a href="/admin/orders">联系我们</a></li>
           </ul>
+          
         </div><!--/.nav-collapse -->
       </div>
     </div>
-    
+    <div class='page-content'>
+    	<div class='my-navbg'></div>
     
     
  	
