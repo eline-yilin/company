@@ -20,7 +20,7 @@ include_once '../config/config.php';;
 </head>
 <body>
 	<!-- Fixed navbar -->
-    <div role="navigation" class="navbar navbar-fixed-top">
+    <div role="navigation" class="navbar my-navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
          
@@ -40,8 +40,11 @@ include_once '../config/config.php';;
         </div><!--/.nav-collapse -->
       </div>
     </div>
+    <div class='my-navbg'>
+    		<img src="<?php echo THEME_PATH;?>images/nav-bg.jpg" />
+    </div>
     <div class='page-content'>
-    	<div class='my-navbg'></div>
+    	
     
     
  	

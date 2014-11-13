@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 .center{margin:0px auto;text-align:center;}
-.container{width:100%;}
+.container{width:100%;padding-left:0;padding-right:0;}
 .navbar li a
 {
 	padding:5px 10px;
@@ -31,13 +31,16 @@
     font-weight:bold;
   
 }
-.my-navbg{
-	background-image: url("../images/nav-bg.jpg");
-	height:490px;
-	}
+.my-pills 
+{
+	border-bottom:1px solid #aaa;
+	background:#eee;
+}
+
+	
 .my-top-nav{
 	position:relative;
-	height:50px;
+	height:46px;
 }
 .my-pills-overlay
 {
@@ -52,3 +55,8 @@
 {
 	position:relative;
 }
+.my-navbg {
+	height:490px;
+	margin-top:46px;
+	}
+.my-navbg img{width:100%;}
