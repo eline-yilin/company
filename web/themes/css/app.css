@@ -4,7 +4,7 @@
 .my-orange{background:#ee7337;color:#fff;}
 .my-blue{background:#337ab7;color:#fff;}
 .center{margin:0px auto;text-align:center;}
-.bussiniess-list > div{text-align:center;}
+.bussiniess-list > div{text-align:center;margin:10px 0px;}
 .bussiniess-list .my-circle{padding:20%;text-align:center;display:inline-block;}
 .container{width:100%;padding-left:0;padding-right:0;}
 .navbar li a

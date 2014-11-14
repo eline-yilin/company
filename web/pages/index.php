@@ -14,9 +14,9 @@ include '../includes/header.php';
     </div>
     <div class="container-fluid">
 	    <div class='row bussiniess-list'>
-	    	<div class="col-md-4 .col-xs-12"><div class='my-circle my-red'>bussiness</div></div>
-	    	<div class="col-md-4 .col-xs-12"><div class='my-circle my-orange'>bussiness</div></div>
-	    	<div class="col-md-4 .col-xs-12"><div class='my-circle my-blue'>bussiness</div></div>
+	    	<div class="col-md-4 col-sm-4 col-xs-4"><div class='my-circle my-red'>bussiness</div></div>
+	    	<div class="col-md-4  col-sm-4  col-xs-4"><div class='my-circle my-orange'>bussiness</div></div>
+	    	<div class="col-md-4  col-sm-4  col-xs-4"><div class='my-circle my-blue'>bussiness</div></div>
 	    </div>
     </div>
 </div>
