@@ -16,6 +16,7 @@ include_once '../config/config.php';;
        
      <!-- Latest compiled and minified JavaScript -->
       <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <script src="<?php echo THEME_PATH;?>js/utility.js"></script>
       <script src="<?php echo THEME_PATH;?>js/app.js"></script>
 </head>
 <body>
@@ -28,20 +29,18 @@ include_once '../config/config.php';;
         <div class="my-top-nav">
         <div class='my-pills-overlay'></div>
           <ul class="nav  nav-pills my-pills">
-           		<li class='active'><a href="/admin">关于我们</a></li>
-	            
-	            <li ><a href="/admin/user">业务范围</a></li>
-	            
-	            <li ><a href="/admin/comment">成功案例</a></li>  
-	           
-	            <li ><a href="/admin/orders">联系我们</a></li>
+           <?php foreach($nav_array as $key => $nav_item):
+            $text = isset( $nav_item['text']) ? $nav_item['text'] : $key;
+            $href = isset( $nav_item['href']) ? $nav_item['href'] : $key;
+            $href = '#' . $href;
+           ?>
+           		<li class='nav-item' id='nav-item-<?php echo $key;?>'><a href='<?php echo $href;?>'><?php echo $text;?></a></li>
+           <?php endforeach;?>
+           		
           </ul>
           
         </div><!--/.nav-collapse -->
       </div>
-    </div>
-    <div class='my-navbg'>
-    		<img src="<?php echo THEME_PATH;?>images/nav-bg.jpg" />
     </div>
     <div class='page-content'>
     	

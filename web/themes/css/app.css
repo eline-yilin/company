@@ -8,20 +8,24 @@
 }
 .navbar li a:hover,.navbar li.active a
 {
-	
+	background-color: #ee7337;
+    color: #fff;
 }
 .nav-pills > li{margin:0px 2%;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     
-    background-color: #eee;
-    color: #337ab7;
+    background-color: #ee7337;
+    color: #fff;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg); /* Standard syntax */
 }
 .nav-pills > li > a {
     border-radius: 4px;
     background-color: #eee;
     color: #337ab7;
-    background-color: #fff;
-    color: #337ab7;
+    background-color: #eab020;
+    color: #fff;
     
 }
 .nav > li > a {
@@ -54,9 +58,10 @@
 .page-content
 {
 	position:relative;
+	top:46px;
 }
-.my-navbg {
-	height:490px;
-	margin-top:46px;
+.my-bg {
+
 	}
-.my-navbg img{width:100%;}
+.my-bg img{width:100%;}
+.page-section{border:1px solid black; margin:10px;}
