@@ -1,5 +1,11 @@
 @CHARSET "UTF-8";
+.my-circle{border-radius:50%;}
+.my-red{background:red;color:#fff;}
+.my-orange{background:#ee7337;color:#fff;}
+.my-blue{background:#337ab7;color:#fff;}
 .center{margin:0px auto;text-align:center;}
+.bussiniess-list > div{text-align:center;}
+.bussiniess-list .my-circle{padding:20%;text-align:center;display:inline-block;}
 .container{width:100%;padding-left:0;padding-right:0;}
 .navbar li a
 {
@@ -59,9 +65,11 @@
 {
 	position:relative;
 	top:46px;
+	padding-bottom:4%;
 }
 .my-bg {
 
 	}
 .my-bg img{width:100%;}
 .page-section{border:1px solid black; margin:10px;}
+#footer{padding:1% 0px;text-align:center;background:#FFF;border-top:1px solid #eee;}

@@ -12,7 +12,14 @@ include '../includes/header.php';
 	<div class='my-bg'>
     		<img src="<?php echo THEME_PATH;?>images/bussiness.jpg" />
     </div>
-b</div>
+    <div class="container-fluid">
+	    <div class='row bussiniess-list'>
+	    	<div class="col-md-4 .col-xs-12"><div class='my-circle my-red'>bussiness</div></div>
+	    	<div class="col-md-4 .col-xs-12"><div class='my-circle my-orange'>bussiness</div></div>
+	    	<div class="col-md-4 .col-xs-12"><div class='my-circle my-blue'>bussiness</div></div>
+	    </div>
+    </div>
+</div>
 <div id='portfolio-content' class='page-section' >
 	<div class='my-bg'>
     		<img src="<?php echo THEME_PATH;?>images/nav-bg.jpg" />
